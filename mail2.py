@@ -18,5 +18,5 @@ server.starttls()
 server.login("shailjatripathi025@gmail.com", "1234")
 print("Login Success!")
 # Send Email
-server.sendmail("Shailja Tripathi", "Email", message)
+server.sendmail("Shailja Tripathi", "shailjatripathi025@gmail.com", message)
 print(f"Email has been sent successfully to {rec_email}")
